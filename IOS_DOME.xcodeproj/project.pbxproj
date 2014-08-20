@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7332FEA1198B779800DB6DCA /* ScreenShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332FEA0198B779800DB6DCA /* ScreenShotViewController.m */; };
+		7332FEA7198B867C00DB6DCA /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332FEA4198B867C00DB6DCA /* PieChartViewController.m */; };
+		7332FEA8198B867C00DB6DCA /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332FEA6198B867C00DB6DCA /* XYPieChart.m */; };
+		7332FEAC198B8ACC00DB6DCA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332FEAB198B8ACC00DB6DCA /* LocationViewController.m */; };
+		7332FEAE198B8B1700DB6DCA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7332FEAD198B8B1700DB6DCA /* CoreLocation.framework */; };
+		7332FEB1198B9D5000DB6DCA /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332FEB0198B9D5000DB6DCA /* WGS84TOGCJ02.m */; };
+		733E239B198F5F6C00F7809D /* WXShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733E239A198F5F6C00F7809D /* WXShareViewController.m */; };
+		733E23A0198F602100F7809D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 733E239D198F602100F7809D /* libWeChatSDK.a */; };
+		733E23A4198F605600F7809D /* iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 733E23A1198F605600F7809D /* iphone5.png */; };
+		733E23A5198F605600F7809D /* iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 733E23A2198F605600F7809D /* iphone4.png */; };
+		733E23A6198F605600F7809D /* iphone4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 733E23A3198F605600F7809D /* iphone4@2x.png */; };
+		733E23AC198F645B00F7809D /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 733E23A8198F645B00F7809D /* Icon-60.png */; };
+		733E23AD198F645B00F7809D /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 733E23A9198F645B00F7809D /* Icon-60@2x.png */; };
+		733E23AE198F645B00F7809D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 733E23AA198F645B00F7809D /* Icon.png */; };
+		733E23AF198F645B00F7809D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 733E23AB198F645B00F7809D /* Icon@2x.png */; };
+		733E23B5198F919900F7809D /* WXSendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733E23B4198F919900F7809D /* WXSendMessageViewController.m */; };
+		73A6E5FC198A384B00289BE7 /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A6E5FB198A384B00289BE7 /* ThreadViewController.m */; };
 		73B93D95198A14E80099E858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B93D94198A14E80099E858 /* Foundation.framework */; };
 		73B93D97198A14E80099E858 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B93D96198A14E80099E858 /* CoreGraphics.framework */; };
 		73B93D99198A14E80099E858 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B93D98198A14E80099E858 /* UIKit.framework */; };
@@ -19,6 +36,8 @@
 		73B93DB0198A14E80099E858 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B93D98198A14E80099E858 /* UIKit.framework */; };
 		73B93DB8198A14E80099E858 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73B93DB6198A14E80099E858 /* InfoPlist.strings */; };
 		73B93DBA198A14E80099E858 /* IOS_DOMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B93DB9198A14E80099E858 /* IOS_DOMETests.m */; };
+		73B93DC8198A152B0099E858 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B93DC7198A152B0099E858 /* HomeViewController.m */; };
+		73B93DCC198A1ABD0099E858 /* UIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B93DCB198A1ABD0099E858 /* UIRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +51,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7332FE9F198B779800DB6DCA /* ScreenShotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenShotViewController.h; sourceTree = "<group>"; };
+		7332FEA0198B779800DB6DCA /* ScreenShotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenShotViewController.m; sourceTree = "<group>"; };
+		7332FEA3198B867C00DB6DCA /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		7332FEA4198B867C00DB6DCA /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		7332FEA5198B867C00DB6DCA /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		7332FEA6198B867C00DB6DCA /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		7332FEAA198B8ACC00DB6DCA /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		7332FEAB198B8ACC00DB6DCA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		7332FEAD198B8B1700DB6DCA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7332FEAF198B9D5000DB6DCA /* WGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGS84TOGCJ02.h; sourceTree = "<group>"; };
+		7332FEB0198B9D5000DB6DCA /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84TOGCJ02.m; sourceTree = "<group>"; };
+		733E2399198F5F6C00F7809D /* WXShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXShareViewController.h; sourceTree = "<group>"; };
+		733E239A198F5F6C00F7809D /* WXShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXShareViewController.m; sourceTree = "<group>"; };
+		733E239D198F602100F7809D /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		733E239E198F602100F7809D /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		733E239F198F602100F7809D /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		733E23A1198F605600F7809D /* iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone5.png; sourceTree = "<group>"; };
+		733E23A2198F605600F7809D /* iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone4.png; sourceTree = "<group>"; };
+		733E23A3198F605600F7809D /* iphone4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone4@2x.png"; sourceTree = "<group>"; };
+		733E23A8198F645B00F7809D /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		733E23A9198F645B00F7809D /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		733E23AA198F645B00F7809D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		733E23AB198F645B00F7809D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		733E23B3198F919900F7809D /* WXSendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSendMessageViewController.h; sourceTree = "<group>"; };
+		733E23B4198F919900F7809D /* WXSendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSendMessageViewController.m; sourceTree = "<group>"; };
+		73A6E5FA198A384B00289BE7 /* ThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadViewController.h; sourceTree = "<group>"; };
+		73A6E5FB198A384B00289BE7 /* ThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadViewController.m; sourceTree = "<group>"; };
 		73B93D91198A14E80099E858 /* IOS_DOME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_DOME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B93D94198A14E80099E858 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73B93D96198A14E80099E858 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +94,11 @@
 		73B93DB5198A14E80099E858 /* IOS_DOMETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOS_DOMETests-Info.plist"; sourceTree = "<group>"; };
 		73B93DB7198A14E80099E858 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73B93DB9198A14E80099E858 /* IOS_DOMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_DOMETests.m; sourceTree = "<group>"; };
+		73B93DC6198A152B0099E858 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		73B93DC7198A152B0099E858 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		73B93DCA198A1ABD0099E858 /* UIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRootViewController.h; sourceTree = "<group>"; };
+		73B93DCB198A1ABD0099E858 /* UIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRootViewController.m; sourceTree = "<group>"; };
+		73B93DD1198A1E7F0099E858 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +106,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7332FEAE198B8B1700DB6DCA /* CoreLocation.framework in Frameworks */,
 				73B93D97198A14E80099E858 /* CoreGraphics.framework in Frameworks */,
 				73B93D99198A14E80099E858 /* UIKit.framework in Frameworks */,
 				73B93D95198A14E80099E858 /* Foundation.framework in Frameworks */,
+				733E23A0198F602100F7809D /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +127,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7332FE9E198B778300DB6DCA /* 截屏 */ = {
+			isa = PBXGroup;
+			children = (
+				7332FE9F198B779800DB6DCA /* ScreenShotViewController.h */,
+				7332FEA0198B779800DB6DCA /* ScreenShotViewController.m */,
+			);
+			name = "截屏";
+			sourceTree = "<group>";
+		};
+		7332FEA2198B866D00DB6DCA /* 饼图 */ = {
+			isa = PBXGroup;
+			children = (
+				7332FEA3198B867C00DB6DCA /* PieChartViewController.h */,
+				7332FEA4198B867C00DB6DCA /* PieChartViewController.m */,
+				7332FEA5198B867C00DB6DCA /* XYPieChart.h */,
+				7332FEA6198B867C00DB6DCA /* XYPieChart.m */,
+			);
+			name = "饼图";
+			sourceTree = "<group>";
+		};
+		7332FEA9198B8AB300DB6DCA /* 定位 */ = {
+			isa = PBXGroup;
+			children = (
+				7332FEAA198B8ACC00DB6DCA /* LocationViewController.h */,
+				7332FEAB198B8ACC00DB6DCA /* LocationViewController.m */,
+				7332FEAF198B9D5000DB6DCA /* WGS84TOGCJ02.h */,
+				7332FEB0198B9D5000DB6DCA /* WGS84TOGCJ02.m */,
+				7332FEAD198B8B1700DB6DCA /* CoreLocation.framework */,
+			);
+			name = "定位";
+			sourceTree = "<group>";
+		};
+		733E2398198F5F4000F7809D /* 微信 */ = {
+			isa = PBXGroup;
+			children = (
+				733E2399198F5F6C00F7809D /* WXShareViewController.h */,
+				733E239A198F5F6C00F7809D /* WXShareViewController.m */,
+				733E23B3198F919900F7809D /* WXSendMessageViewController.h */,
+				733E23B4198F919900F7809D /* WXSendMessageViewController.m */,
+				733E239C198F602100F7809D /* SDKExport */,
+			);
+			name = "微信";
+			sourceTree = "<group>";
+		};
+		733E239C198F602100F7809D /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				733E23A1198F605600F7809D /* iphone5.png */,
+				733E23A2198F605600F7809D /* iphone4.png */,
+				733E23A3198F605600F7809D /* iphone4@2x.png */,
+				733E239D198F602100F7809D /* libWeChatSDK.a */,
+				733E239E198F602100F7809D /* WXApi.h */,
+				733E239F198F602100F7809D /* WXApiObject.h */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		733E23A7198F644900F7809D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				733E23A8198F645B00F7809D /* Icon-60.png */,
+				733E23A9198F645B00F7809D /* Icon-60@2x.png */,
+				733E23AA198F645B00F7809D /* Icon.png */,
+				733E23AB198F645B00F7809D /* Icon@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		73B93D88198A14E80099E858 = {
 			isa = PBXGroup;
 			children = (
+				733E23A7198F644900F7809D /* Resources */,
 				73B93D9A198A14E80099E858 /* IOS_DOME */,
 				73B93DB3198A14E80099E858 /* IOS_DOMETests */,
 				73B93D93198A14E80099E858 /* Frameworks */,
@@ -109,7 +231,14 @@
 			children = (
 				73B93DA3198A14E80099E858 /* AppDelegate.h */,
 				73B93DA4198A14E80099E858 /* AppDelegate.m */,
-				73B93DA6198A14E80099E858 /* Images.xcassets */,
+				73B93DC3198A14EF0099E858 /* 首页 */,
+				73B93DC4198A14F60099E858 /* 线程 */,
+				7332FE9E198B778300DB6DCA /* 截屏 */,
+				7332FEA2198B866D00DB6DCA /* 饼图 */,
+				7332FEA9198B8AB300DB6DCA /* 定位 */,
+				733E2398198F5F4000F7809D /* 微信 */,
+				73B93DC9198A1A9B0099E858 /* 公共 */,
+				73B93DD0198A1E570099E858 /* 配置 */,
 				73B93D9B198A14E80099E858 /* Supporting Files */,
 			);
 			path = IOS_DOME;
@@ -118,6 +247,7 @@
 		73B93D9B198A14E80099E858 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				73B93DA6198A14E80099E858 /* Images.xcassets */,
 				73B93D9C198A14E80099E858 /* IOS_DOME-Info.plist */,
 				73B93D9D198A14E80099E858 /* InfoPlist.strings */,
 				73B93DA0198A14E80099E858 /* main.m */,
@@ -142,6 +272,41 @@
 				73B93DB6198A14E80099E858 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73B93DC3198A14EF0099E858 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				73B93DC6198A152B0099E858 /* HomeViewController.h */,
+				73B93DC7198A152B0099E858 /* HomeViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		73B93DC4198A14F60099E858 /* 线程 */ = {
+			isa = PBXGroup;
+			children = (
+				73A6E5FA198A384B00289BE7 /* ThreadViewController.h */,
+				73A6E5FB198A384B00289BE7 /* ThreadViewController.m */,
+			);
+			name = "线程";
+			sourceTree = "<group>";
+		};
+		73B93DC9198A1A9B0099E858 /* 公共 */ = {
+			isa = PBXGroup;
+			children = (
+				73B93DCA198A1ABD0099E858 /* UIRootViewController.h */,
+				73B93DCB198A1ABD0099E858 /* UIRootViewController.m */,
+			);
+			name = "公共";
+			sourceTree = "<group>";
+		};
+		73B93DD0198A1E570099E858 /* 配置 */ = {
+			isa = PBXGroup;
+			children = (
+				73B93DD1198A1E7F0099E858 /* Define.h */,
+			);
+			name = "配置";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +385,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B93D9F198A14E80099E858 /* InfoPlist.strings in Resources */,
+				733E23AF198F645B00F7809D /* Icon@2x.png in Resources */,
 				73B93DA7198A14E80099E858 /* Images.xcassets in Resources */,
+				733E23AC198F645B00F7809D /* Icon-60.png in Resources */,
+				733E23AD198F645B00F7809D /* Icon-60@2x.png in Resources */,
+				733E23AE198F645B00F7809D /* Icon.png in Resources */,
+				733E23A6198F605600F7809D /* iphone4@2x.png in Resources */,
+				733E23A4198F605600F7809D /* iphone5.png in Resources */,
+				733E23A5198F605600F7809D /* iphone4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +411,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7332FEA8198B867C00DB6DCA /* XYPieChart.m in Sources */,
+				7332FEB1198B9D5000DB6DCA /* WGS84TOGCJ02.m in Sources */,
+				7332FEAC198B8ACC00DB6DCA /* LocationViewController.m in Sources */,
+				7332FEA1198B779800DB6DCA /* ScreenShotViewController.m in Sources */,
 				73B93DA5198A14E80099E858 /* AppDelegate.m in Sources */,
 				73B93DA1198A14E80099E858 /* main.m in Sources */,
+				73A6E5FC198A384B00289BE7 /* ThreadViewController.m in Sources */,
+				73B93DCC198A1ABD0099E858 /* UIRootViewController.m in Sources */,
+				73B93DC8198A152B0099E858 /* HomeViewController.m in Sources */,
+				733E23B5198F919900F7809D /* WXSendMessageViewController.m in Sources */,
+				733E239B198F5F6C00F7809D /* WXShareViewController.m in Sources */,
+				7332FEA7198B867C00DB6DCA /* PieChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -348,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -357,11 +539,14 @@
 		73B93DBE198A14E80099E858 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOS_DOME/IOS_DOME-Prefix.pch";
 				INFOPLIST_FILE = "IOS_DOME/IOS_DOME-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/glei/Desktop/AppDemo/IOS_DOME/IOS_DOME/SDKExport,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -370,11 +555,14 @@
 		73B93DBF198A14E80099E858 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOS_DOME/IOS_DOME-Prefix.pch";
 				INFOPLIST_FILE = "IOS_DOME/IOS_DOME-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/glei/Desktop/AppDemo/IOS_DOME/IOS_DOME/SDKExport,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,6 +629,7 @@
 				73B93DBF198A14E80099E858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B93DC0198A14E80099E858 /* Build configuration list for PBXNativeTarget "IOS_DOMETests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +638,7 @@
 				73B93DC2198A14E80099E858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

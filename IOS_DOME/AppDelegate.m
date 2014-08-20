@@ -15,7 +15,17 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    HomeViewController *homeVC = [[HomeViewController alloc]init];
+    UINavigationController *navigcontroller = [[UINavigationController alloc]initWithRootViewController:homeVC];
+    self.window.rootViewController = navigcontroller;
+    
     [self.window makeKeyAndVisible];
+    
+    
+    //向微信注册
+    [WXApi registerApp:@"wxd930ea5d5a258f4f" withDescription:@"微信分享测试"];
+    
     return YES;
 }
 

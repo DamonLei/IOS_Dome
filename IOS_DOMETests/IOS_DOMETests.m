@@ -9,6 +9,12 @@
 #import <XCTest/XCTest.h>
 
 @interface IOS_DOMETests : XCTestCase
+{
+    @private
+    
+    
+    
+}
 
 @end
 
@@ -26,9 +32,33 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+//- (void)testExample
+//{
+//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+//}
+
+- (void)testTrue{
+    XCTAssert(1, @"Can not be zero");
+}
+
+- (void)testTrue2 {
+    NSLog(@"2222222222222222222222");
+    XCTAssert(1, @"Can not be zero");
+}
+
+- (void)testTrue1 {
+    NSLog(@"1111111111111111111111");
+    XCTAssert(1, @"Can not be zero");
+}
+
+- (void)testTrue3 {
+    NSLog(@"3333333333333333333333");
+    XCTAssert(1, @"Can not be zero");
+}
+
+- (void)testAtrue {
+    NSLog(@"0000000000000000000000");
+    XCTAssert(1, @"Can not be zero");
 }
 
 @end
